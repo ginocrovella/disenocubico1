@@ -1,0 +1,244 @@
+* {
+    font-family: raleway;
+  }
+  
+  body {
+    background-color: antiquewhite;
+  }
+
+  .titulo {
+    text-align: center;
+    margin-top: 13px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: black;
+    font-size: 35px;
+  }
+
+  @media (min-width: 576px) {
+    .nav-expand-sm .navbar-collapse {
+      display: flex!important;
+      flex-basis: auto;
+      flex-direction: column;
+    }
+  }
+  @media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+      display: flex!important;
+      flex-basis: auto;
+      flex-direction: column;
+  }
+}
+  @media (min-width: 1200px) {
+    .nav-expand-xl .navbar-collapse {
+      display: flex!important;
+      flex-basis: auto;
+      flex-direction: column;
+    }
+}
+
+
+
+.css-navbar {
+    width: auto;
+    height: 40px;
+    padding: 10px;
+    margin: 10px 0px 5px 0px;
+  }
+.ul-css-navbar{
+  gap: 4rem;
+}
+
+.img-principal {
+  margin: 5px 20px 10px 20px;
+  box-shadow: 2px 3px 24px 1px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 2px 3px 24px 1px rgba(0,0,0,0.6);
+  -moz-box-shadow: 2px 3px 24px 1px rgba(0,0,0,0.6);
+}
+.grid-img-principal{
+  display: grid;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.dropdown-item {
+  margin: 0px 2px 1px 0px;
+  padding: 3px 5px 1px 5px;
+  color: #b9b4b4 ;
+
+}
+.dropdown-menu{
+  background-color: #212529;
+  color: black;
+}
+.dropdown-item:hover {
+  color: wheat;
+}
+
+.bi-cart4{
+  font-size: 20px;
+  color: #b9b4b4;
+  
+}
+
+
+
+
+.legend-form{
+  padding: 5px;
+  margin: 2px;
+}
+
+.card-form {
+  background-color: rgba(239, 239, 239, 0.672);
+  width: 30rem;
+  height: 19rem;
+  margin: 15px 20px 10px 20px;
+  padding: 10px;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+}
+
+.card-title {
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 1px;
+  color: antiquewhite;
+}
+
+.card{
+  background-color: #212529;
+  text-align: center;
+  box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.55);
+  -webkit-box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.55);
+  -moz-box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.55); 
+  border-style: none;
+  
+}
+
+.card-precio{
+  color: antiquewhite;
+  font-size: 20px;
+}
+.botones-cards{
+  background-color: #8affd8f0;
+  padding: 5px;
+  border-style: none;
+  font-weight: bold;
+}
+
+
+.title-categories{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 8px;
+}
+.nav-link{
+  color: black;
+}
+
+.img-cards-racks {
+  width: 400px;
+  height: 288px;
+}
+ /* MESAS DE LUZ */ 
+.title-categories-mdl{
+  text-align: start;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 45px 0px 30px 15px;
+}
+.img-cards-mdl{
+  width: 400px;
+  height: 400px;
+}
+
+/* COCINA */ 
+.title-categories-cocina{
+  text-align: start;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 45px 0px 30px 15px;
+}
+.img-cards-cocina {
+  width: 400px;
+  height: 400px;
+}
+
+  div button {
+    background-color: khaki;
+    color: #000000;
+    font-weight: bold;
+  }
+  div button:hover{
+    color: grey;
+  }
+
+  .boton-enviar {
+    margin-top: 20px;
+  }
+
+/* CLASS BUTTON REGISTRATION */ 
+
+.boton-registro{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.btn-registration {
+  font-size: 25px;
+  text-align: center;
+  background-color: #212529;
+  color: #b9b4b4; 
+}
+
+/* footer */ 
+footer div i {
+  color: #212529;
+  padding: 10px 5px 10px 0px;
+  gap: 30px;
+  font-size: 25px; 
+}
+
+footer i:hover {
+  color: #966e74;
+}
+
+.icons{
+  text-align: center;
+  font-size: 25px;
+}
+
+/* VIEW - CATALOGO */ 
+main div .diseño {
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+  background-color: #cbe49c;
+  box-shadow: -1px 13px 20px -4px rgba(0, 0, 0, 0.68);
+  -webkit-box-shadow: -1px 13px 20px -4px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: -1px 13px 20px -4px rgba(0, 0, 0, 0.68); }
+
+.nav-center {
+  text-align: center;
+}
+
+/* TRANCISIONES IMAGENES MUEBLES 
+.transicion {
+  transition: width 0.5s; }
+
+.transicion:hover {
+  width: 450px;
+  height: 300px; }
+
+.transicion-mascota {
+  transition: width 0.5s; }
+
+.transicion-mascota:hover {
+  width: 450px;
+  height: 500; } */

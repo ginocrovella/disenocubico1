@@ -54,42 +54,41 @@ let botoncontacto = document.getElementById("botoncontacto");
 botoncontacto.onclick = () => {console.log("El usuario clickeó Contacto")
     localStorage.setItem("El usuario selecciono ", (" Contacto "))
 };
-;
 // DECLARO BOTONCARTS
 
-let botoncart1 = document.getElementById("button-cart1");
+let botoncart1 = document.getElementById("buttoncart1");
 botoncart1.onclick = () => {console.log("El usuario agregó un mueble al carrito",mueble1)
     localStorage.setItem("Usuario agregó un mueble al carrito", "Rack 1 " + JSON.stringify(mueble1))
 };
-let botoncart2 = document.getElementById("button-cart2");
+let botoncart2 = document.getElementById("buttoncart2");
 botoncart2.onclick = () => {console.log("El usuario agregó un mueble al carrito")
     localStorage.setItem("Usuario agregó un mueble al carrito", "Rack 2 " +JSON.stringify(mueble2))
 };
-let botoncart3 = document.getElementById("button-cart3");
+let botoncart3 = document.getElementById("buttoncart3");
 botoncart3.onclick = () => {console.log("El usuario agregó un mueble al carrito")
     localStorage.setItem("Usuario agregó un mueble al carrito","Rack 3 " + JSON.stringify(mueble3))
 };
-let botoncart4 = document.getElementById("button-cart4");
+let botoncart4 = document.getElementById("buttoncart4");
 botoncart4.onclick = () => {console.log("El usuario agregó un mueble al carrito")
     localStorage.setItem("Usuario agregó un mueble al carrito","Mesa de luz 1 " + JSON.stringify(mueble4))
 };
-let botoncart5 = document.getElementById("button-cart5");
+let botoncart5 = document.getElementById("buttoncart5");
 botoncart5.onclick = () => {console.log("El usuario agregó un mueble al carrito")
     localStorage.setItem("Usuario agregó un mueble al carrito", "Mesa de luz 2 " + JSON.stringify(mueble5))
 };
-let botoncart6 = document.getElementById("button-cart6");
+let botoncart6 = document.getElementById("buttoncart6");
 botoncart6.onclick = () => {console.log("El usuario agregó un mueble al carrito")
     localStorage.setItem("Usuario agregó el mueble al carrito","Mesa de luz 3 " + JSON.stringify(mueble6))
 };
-let botoncart7 = document.getElementById("button-cart7");
+let botoncart7 = document.getElementById("buttoncart7");
 botoncart7.onclick = () => {console.log("El usuario agregó un mueble al carrito")
     localStorage.setItem("Usuario agregó un mueble al carrito","Cocina 1 " + JSON.stringify(mueble7))
 };
-let botoncart8 = document.getElementById("button-cart8");
+let botoncart8 = document.getElementById("buttoncart8");
 botoncart8.onclick = () => {console.log("El usuario agregó un mueble al carrito")
     localStorage.setItem("Usuario agregó un mueble al carrito","Cocina 2 " + JSON.stringify(mueble8))
 };
-let botoncart9 = document.getElementById("button-cart9");
+let botoncart9 = document.getElementById("buttoncart9");
 botoncart9.onclick = () => {console.log("El usuario agregó un mueble al carrito")
     localStorage.setItem("Usuario agregó un mueble al carrito","Cocina 3" +  JSON.stringify(mueble9))
 };
